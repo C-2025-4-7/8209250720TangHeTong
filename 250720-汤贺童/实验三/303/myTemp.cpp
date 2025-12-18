@@ -7,12 +7,14 @@
  */
 #include "myTemp.h"
  //将摄氏度转换为华氏度
-double celsius_to_fah(double celsius) {
+double celsius_to_fah(double celsius)
+{
 	double fahrenheit = (celsius * 1.8) + 32;
 	return fahrenheit;
 }
 //将华氏度转换为摄氏度
-double fahrenheit_to_cels(double fahrenheit) {
+double fahrenheit_to_cels(double fahrenheit)
+{
 	double celsius = (fahrenheit - 32) / 1.8;
 	return celsius;
 }
