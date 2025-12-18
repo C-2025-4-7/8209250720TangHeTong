@@ -7,7 +7,7 @@
  */
 #ifndef TEMPERATURE_CONVERSION_H
 #define TEMPERATURE_CONVERSION_H
- //将摄氏度转换为华氏度
+//将摄氏度转换为华氏度
 double celsius_to_fah(double celsius);
 //将华氏度转换为摄氏度
 double fahrenheit_to_cels(double fahrenheit);
